@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 AutomaticTextSummarizer.wsgi:application
+web: gunicorn AutomaticTextSummarizer.wsgi 
